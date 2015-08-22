@@ -158,16 +158,16 @@ for iteration = 1:20
 	pc = predictOneVsAll(history_theta,input_data);
 
 	if (pc==1)
-		fprintf('You belong to class 0 with a prbability equal to pval and if you do not exercise very regulary, then please do visit a doctor immediately because you have a abnormal pulse rate reading!\n');
+		fprintf('You belong to class 1 with a prbability equal to pval and if you do not exercise very regulary, then please do visit a doctor immediately because you have a abnormal pulse rate reading!\n');
 
 	else if (pc==2)
-		fprintf('You belong to class 1 with a prbability equal to pval and you have a normal reading. You are expected to be in a resting/calm state.\n');
+		fprintf('You belong to class 2 with a prbability equal to pval and you have a normal reading. You are expected to be in a resting/calm state.\n');
 
 	else if (pc==3)
-		fprintf('You belong to class 2 with a prbability equal to pval and you have a reading of an excited person!\n');
+		fprintf('You belong to class 3 with a prbability equal to pval and you have a reading of an excited person!\n');
 
 	else if (pc==4)
-		fprintf('You belong to class 3 with a prbability equal to pval and you have a reading of a person under exertion or work out!\n');
+		fprintf('You belong to class 4 with a prbability equal to pval and you have a reading of a person under exertion or work out!\n');
 	end
 end
 end
